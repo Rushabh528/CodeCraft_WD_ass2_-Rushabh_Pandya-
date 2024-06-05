@@ -1,0 +1,38 @@
+body {
+  background-image: url(background.jpg);
+}
+
+#tiles {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile {
+  height: 80px;
+  margin: 10px;
+  width: 110px;
+  border: 3px solid black;
+  font-family: "Mukta", sans-serif;
+  font-weight: 500;
+  font-style: oblique;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 30px;
+}
+#sound {
+  font-size: large;
+  color: yellow;
+}
+
+.playing {
+  transform: scale(1.1);
+  border: 2px solid yellow;
+}
